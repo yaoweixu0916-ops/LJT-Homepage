@@ -1,0 +1,30 @@
+/* Archive styles */
+.archive {
+  margin-bottom: 2rem;
+}
+
+.archive__item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.archive__item-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.archive__item-excerpt {
+  color: var(--secondary-color);
+  font-size: 0.875rem;
+}
+
+/* Publication list */
+.archive__item-teaser {
+  margin-bottom: 1rem;
+}
+
+.archive__item-teaser img {
+  max-width: 100%;
+  height: auto;
+}
