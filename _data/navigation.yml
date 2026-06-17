@@ -1,8 +1,8 @@
 # main links
 main:
   - title: "About"
-    url: /_pages/about
+    url: /
   - title: "Publications"
-    url: /_pages/publications
+    url: /_pages/publications.html
   - title: "CV"
-    url: /_pages/cv
+    url: /_pages/cv.html
