@@ -1,0 +1,12 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.author.github %}
+      <li><a href="https://github.com/{‌{ site.author.github }}" rel="noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if site.author.twitter %}
+      <li><a href="https://twitter.com/{‌{ site.author.twitter }}" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    {% endif %}
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; {‌{ site.time | date: '%Y' }} {‌{ site.name | default: site.title }}. {‌{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="noopener noreferrer">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="noopener noreferrer">Minimal Mistakes</a>.</div>

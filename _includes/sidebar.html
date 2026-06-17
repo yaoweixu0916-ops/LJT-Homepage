@@ -1,0 +1,7 @@
+<aside class="sidebar__right {% if page.sidebar.nav %}sticky{% endif %}">
+  <nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-{{ site.data.ui-text[site.locale].toc_icon | default: 'file-alt' }}"></i> {{ site.data.ui-text[site.locale].toc_label | default: 'On this page' }}</h4></header>
+    <ul class="toc__menu">
+    </ul>
+  </nav>
+</aside>
